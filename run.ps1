@@ -74,6 +74,10 @@ param(
     [switch]$Reinstall,
     [string]$ToolsSourceSuffix,
     [string]$ConfigFile = $null,
+    [switch]$Update,
+    [switch]$Reinstall,
+    [string]$ToolsSourceSuffix,
+    [string]$ConfigFile = $null,
     [switch]$CI,
     [Parameter(ValueFromRemainingArguments = $true)]
     [string[]]$Arguments
